@@ -26,7 +26,7 @@ class Program
             Console.WriteLine("4. Salir");
             Console.Write("Seleccione una opción: ");
             
-            // Valida la entrada: si no es un número, asigna 0 para evitar que el programa falle
+            // detecta que no sea precionado otro numero que no este en las opciones
             if (!int.TryParse(Console.ReadLine(), out opcion)) 
             {
                 opcion = 0;
@@ -34,6 +34,7 @@ class Program
 
             switch (opcion)
             {
+                
                 case 3:
                     Console.Clear();
                     CambiarLibro(codigos, libros, precios, cantidad, total);
@@ -45,9 +46,13 @@ class Program
                 case 4:
                     Console.WriteLine("Saliendo del sistema. ¡Adiós!");
                     break;
-
-                default:
-                    
+                    default:
+                    Console.WriteLine();
+                    ("Opción no válida. Intente de nuevo.");
+                    Console.ReadKey();
+                    break;
+            }
+        }
     }
 
     // Esto es el update es para cambiar de libro - precio -codigo y cantidad 

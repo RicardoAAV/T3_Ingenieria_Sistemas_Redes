@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("T3_Ingenieria_Sistemas_Redes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f8e87c24ab64a81ff6d17b000a9b75de4d34313")]
 [assembly: System.Reflection.AssemblyProductAttribute("T3_Ingenieria_Sistemas_Redes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("T3_Ingenieria_Sistemas_Redes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

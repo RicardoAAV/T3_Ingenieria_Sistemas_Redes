@@ -1,0 +1,15 @@
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.AssemblyInfoInputs.cache
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.AssemblyInfo.cs
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.csproj.CoreCompileInputs.cache
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.sourcelink.json
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\bin\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.exe
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\bin\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.deps.json
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\bin\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.runtimeconfig.json
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\bin\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.dll
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\bin\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.pdb
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.dll
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\refint\T3_Ingenieria_Sistemas_Redes.dll
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.pdb
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\T3_Ingenieria_Sistemas_Redes.genruntimeconfig.cache
+C:\Users\Dxjot\Documents\T3_Ingenieria_Sistemas_Redes\obj\Debug\net10.0\ref\T3_Ingenieria_Sistemas_Redes.dll

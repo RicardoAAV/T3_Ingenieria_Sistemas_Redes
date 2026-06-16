@@ -34,7 +34,36 @@ class Program
 
             switch (opcion)
             {
-                
+                case 1:
+                    Console.Clear();
+                    ("--- REGISTRAR NUEVO LIBRO ---");
+                    
+                    // Valida que no hay mas de 100 libros 
+                    if (total < maximo)
+                    {
+                        Console.Write("Ingrese código: ");
+                        codigos[total] = Console.ReadLine();
+
+                        Console.Write("Ingrese nombre del libro: ");
+                        libros[total] = Console.ReadLine();
+
+                        Console.Write("Ingrese precio: ");
+                        precios[total] = double.Parse(Console.ReadLine());
+
+                        Console.Write("Ingrese cantidad: ");
+                        cantidad[total] = int.Parse(Console.ReadLine());
+
+                        // Suma 1 al contador
+                        total++;
+                        System.Console.WriteLine("\n¡Libro registrado con éxito!"); 
+                    }
+                    else
+                    {
+                    Console.WriteLine("Error: El inventario está lleno.");
+                    }
+                    Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                    Console.ReadKey();
+                    break;
                 case 3:
                     Console.Clear();
                     CambiarLibro(codigos, libros, precios, cantidad, total);

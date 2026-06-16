@@ -64,6 +64,30 @@ class Program
                     Console.WriteLine("\nPresione cualquier tecla para continuar...");
                     Console.ReadKey();
                     break;
+
+                case 2:
+                    Console.Clear();
+                    Console.WriteLine("--- LISTA DE LIBROS REGISTRADOS ---");
+                    if (total == 0)
+                    {
+                        Console.WriteLine("No hay libros registrados en el sistema.");
+                    }
+                    else
+                    {
+                        for (int i = 0; i < total; i++)
+                        {
+                            Console.WriteLine($"Libro {i + 1}:");
+                            Console.WriteLine($"  Código: {codigos[i]}");
+                            Console.WriteLine($"  Nombre: {libros[i]}");
+                            Console.WriteLine($"  Precio: s/. {precios[i]}");
+                            Console.WriteLine($"  Cantidad: {cantidad[i]}");
+                            Console.WriteLine("-----------------------------------");
+                        }
+                    }
+                    
+                    Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                    Console.ReadKey();
+                    break;
                 case 3:
                     Console.Clear();
                     CambiarLibro(codigos, libros, precios, cantidad, total);

@@ -4,7 +4,50 @@ class Program
 {
     static void Main(string[] args)
     {
-        // ricardo aqui va create y read
+                // 1. Configuración de arreglos paralelos (Capacidad máxima de 100 libros)
+        int maximo = 100;
+        string[] codigos = new string[maximo];
+        string[] libros = new string[maximo];
+        double[] precios = new double[maximo];
+        int[] cantidad = new int[maximo];
+        
+        // Contador que llevará el registro de cuántos libros reales se han creado
+        int total = 0; 
+        int opcion = 0;
+
+        // Bucle que mantiene el menú activo hasta que el usuario digite 4
+        while (opcion != 4)
+        {
+            Console.Clear();
+            Console.WriteLine("=== SISTEMA DE LIBRERÍA ===");
+            Console.WriteLine("1. Registrar Libro (Create)");
+            Console.WriteLine("2. Mostrar Libros (Read)");
+            Console.WriteLine("3. Cambiar Libro (Update - Ricardo)");
+            Console.WriteLine("4. Salir");
+            Console.Write("Seleccione una opción: ");
+            
+            // Valida la entrada: si no es un número, asigna 0 para evitar que el programa falle
+            if (!int.TryParse(Console.ReadLine(), out opcion)) 
+            {
+                opcion = 0;
+            }
+
+            switch (opcion)
+            {
+                case 3:
+                    Console.Clear();
+                    CambiarLibro(codigos, libros, precios, cantidad, total);
+                    Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                    Console.ReadKey();
+                    break;   
+                    // este aparado conecta el apartado de update 👌
+
+                case 4:
+                    Console.WriteLine("Saliendo del sistema. ¡Adiós!");
+                    break;
+
+                default:
+                    
     }
 
     // Esto es el update es para cambiar de libro - precio -codigo y cantidad 
